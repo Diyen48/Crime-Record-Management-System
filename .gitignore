@@ -1,0 +1,28 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore compiled files
+*.out
+*.exe
+*.class
+
+# Ignore pgAdmin config and backup files (if any)
+pgadmin4.log
+*.backup
+*.dump
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore environment files
+.env
