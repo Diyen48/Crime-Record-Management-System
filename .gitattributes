@@ -1,8 +1,16 @@
+# Treat all files as text by default
 * text=auto
 
-*.sql text
+# Ensure SQL and Markdown files use LF line endings and are treated as text
+*.sql text eol=lf
+*.md text eol=lf
+
+# Ensure PDFs and images are treated as binary
+*.pdf binary
 *.png binary
 *.jpg binary
-*.pdf binary
+*.jpeg binary
+*.svg binary
 
-*.md text
+# Highlight SQL properly on GitHub
+*.sql linguist-language=SQL
