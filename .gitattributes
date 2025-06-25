@@ -1,0 +1,8 @@
+* text=auto
+
+*.sql text
+*.png binary
+*.jpg binary
+*.pdf binary
+
+*.md text
