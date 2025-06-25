@@ -36,8 +36,8 @@ A PostgreSQL-based relational database designed to streamline crime data handlin
 ## 📂 Project Structure
 
 Crime-Record-Management-System/
-├── schema.sql # CREATE TABLE scripts for all entities
+├── DDLScript.sql # CREATE TABLE scripts for all entities
 ├── insert_data.sql # Sample INSERT queries
 ├── queries.sql # Analytical & role-based SQL queries
-├── er_diagram.png # ER diagram (optional visual)
+├── ER_Diagram.png # ER diagram (optional visual)
 └── README.md # Project documentation
